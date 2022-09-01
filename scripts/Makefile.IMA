@@ -75,6 +75,9 @@ lib-y:=
 include networking/Kbuild
 lib-all-y += $(patsubst %,networking/%,$(sort $(lib-y)))
 lib-y:=
+include realm_client/Kbuild
+lib-all-y += $(patsubst %,realm_client/%,$(sort $(lib-y)))
+lib-y:=
 include networking/udhcp/Kbuild
 lib-all-y += $(patsubst %,networking/udhcp/%,$(sort $(lib-y)))
 lib-y:=

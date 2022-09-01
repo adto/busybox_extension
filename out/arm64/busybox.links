@@ -305,6 +305,7 @@
 /usr/bin/top
 /usr/bin/uptime
 /bin/watch
+/bin/realm_client
 /usr/bin/chpst
 /usr/bin/envdir
 /usr/bin/envuidgid

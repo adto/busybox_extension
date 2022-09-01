@@ -5220,6 +5220,12 @@
        "Mon Dec 17 10:31:42 GMT 2000\n" \
        "Mon Dec 17 10:31:44 GMT 2000" \
 
+#define realm_client_trivial_usage \
+       "TBD" \
+
+#define realm_client_full_usage "\n\n" \
+       "TBD" \
+
 #define chpst_trivial_usage \
        "[-vP012] [-u USER[:GRP]] [-U USER[:GRP]] [-e DIR]\n" \
        "	[-/ DIR] [-n NICE] [-m BYTES] [-d BYTES] [-o N]\n" \

@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.34.0
  */
-#define AUTOCONF_TIMESTAMP "2022-07-29 13:56:36 CEST"
+#define AUTOCONF_TIMESTAMP "2022-09-01 14:24:05 CEST"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -6792,6 +6792,18 @@
 # define IF_IFUPDOWN_UDHCPC_CMD_OPTIONS(...) __VA_ARGS__
 #endif
 #define IF_NOT_IFUPDOWN_UDHCPC_CMD_OPTIONS(...)
+
+/*
+ * Editors
+ */
+#define CONFIG_REALM_CLIENT 1
+#define ENABLE_REALM_CLIENT 1
+#ifdef MAKE_SUID
+# define IF_REALM_CLIENT(...) __VA_ARGS__ "CONFIG_REALM_CLIENT"
+#else
+# define IF_REALM_CLIENT(...) __VA_ARGS__
+#endif
+#define IF_NOT_REALM_CLIENT(...)
 
 /*
  * Print Utilities

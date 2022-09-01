@@ -481,6 +481,7 @@ libs-y		:= \
 		mailutils/ \
 		miscutils/ \
 		modutils/ \
+		realm_client/ \
 		networking/ \
 		networking/libiproute/ \
 		networking/udhcp/ \
